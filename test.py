@@ -8,7 +8,11 @@ width = 600
 height = 700
 
 class Simulator(Frame):
-  
+    def clockAdvance():
+        changeButtonText("Yay!")
+
+    clockButton = Button(text="Clock++", command=clockAdvance)
+
     def __init__(self, parent):
         Frame.__init__(self, parent)   
          
@@ -42,9 +46,12 @@ class Simulator(Frame):
 
 
         self.pack(fill=BOTH, expand=1)
+        global clockButton 
+        self.clockButton.pack(pady=10)
 
-        clockButton = Button(self, text="Clock++")
-        clockButton.pack(pady=10)
+    def changeButtonText(text):
+        global clockButton
+        clockButton.text = text
 
 
 def main():
