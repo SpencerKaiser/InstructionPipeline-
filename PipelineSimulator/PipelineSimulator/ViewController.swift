@@ -10,15 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let instructionSet1 = ["LW R8, 4(R3)", "SUB R2, R4, R5", "AND R9, R10, R11", "OR R16, R17, R18", "ADD R13, R14, R0"]
+    let instructionSet2 = ["LW R8, 4(R3)", "SUB R2, R4, R5", "AND R9, R10, R11", "OR R16, R17, R18", "ADD R13, R14, R0"]
+    let instructionSet3 = ["LW R8, 4(R3)", "SUB R2, R4, R5", "AND R9, R10, R11", "OR R16, R17, R18", "ADD R13, R14, R0"]
+
+    var currentInstruction : Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
 
 }
