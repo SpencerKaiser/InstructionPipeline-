@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var MEM_bg: UIView!
     @IBOutlet weak var WB_bg: UIView!
 
+    @IBOutlet weak var advanceClockButton: UIButton!
+    
     @IBOutlet weak var instructionLabel: UILabel!
     
     let instructionSet1 = ["LW R8, 4(R3)", "SUB R2, R4, R5", "AND R9, R10, R11", "OR R16, R17, R18", "ADD R13, R14, R0"]
@@ -33,6 +35,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        IF_bg.layer.cornerRadius = 15.0
+        ID_bg.layer.cornerRadius = 15.0
+        EX_bg.layer.cornerRadius = 15.0
+        MEM_bg.layer.cornerRadius = 15.0
+        WB_bg.layer.cornerRadius = 15.0
+        advanceClockButton.layer.cornerRadius = 15.0
+        
+        
+//        [self.drinkInfoView.layer setCornerRadius:30.0f];
+
+        
     }
 
     @IBAction func advanceClock(sender: AnyObject) {
