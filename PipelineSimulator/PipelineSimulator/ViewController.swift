@@ -44,9 +44,6 @@ class ViewController: UIViewController {
         advanceClockButton.layer.cornerRadius = 15.0
         
         
-//        [self.drinkInfoView.layer setCornerRadius:30.0f];
-
-        
     }
 
     @IBAction func advanceClock(sender: AnyObject) {
