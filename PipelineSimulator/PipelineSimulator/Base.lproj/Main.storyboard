@@ -26,19 +26,19 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="IF_instr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMH-43-ERC" userLabel="IF_instr">
-                                        <rect key="frame" x="58" y="18" width="46" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IF_instr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMH-43-ERC" userLabel="IF_instr">
+                                        <rect key="frame" x="57" y="14" width="46" height="24"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="50f-dV-ecj" firstAttribute="top" secondItem="Tbz-xh-EMS" secondAttribute="top" constant="5" id="6lJ-3U-xlc"/>
-                                    <constraint firstAttribute="centerX" secondItem="iMH-43-ERC" secondAttribute="centerX" constant="-0.5" id="7fb-lg-6Hy"/>
+                                    <constraint firstAttribute="centerX" secondItem="iMH-43-ERC" secondAttribute="centerX" id="7fb-lg-6Hy"/>
                                     <constraint firstAttribute="width" constant="160" id="dBv-gM-tnw"/>
-                                    <constraint firstAttribute="centerY" secondItem="iMH-43-ERC" secondAttribute="centerY" id="fgq-nc-xfT"/>
+                                    <constraint firstAttribute="centerY" secondItem="iMH-43-ERC" secondAttribute="centerY" constant="-2" id="fgq-nc-xfT"/>
                                     <constraint firstAttribute="centerX" secondItem="50f-dV-ecj" secondAttribute="centerX" id="w3k-9d-9ZF"/>
                                 </constraints>
                             </view>
@@ -52,18 +52,18 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID_instr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzV-3M-SV8" userLabel="ID_instr">
-                                        <rect key="frame" x="55" y="13" width="49" height="24"/>
+                                        <rect key="frame" x="55" y="14" width="49" height="24"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="2Qn-5y-6DE"/>
-                                    <constraint firstAttribute="centerY" secondItem="uzV-3M-SV8" secondAttribute="centerY" constant="-0.5" id="KIK-AK-XFL"/>
+                                    <constraint firstAttribute="centerY" secondItem="uzV-3M-SV8" secondAttribute="centerY" constant="-2" id="KIK-AK-XFL"/>
                                     <constraint firstAttribute="centerX" secondItem="xQ0-1A-CCF" secondAttribute="centerX" id="dBl-Qu-CP6"/>
-                                    <constraint firstAttribute="centerX" secondItem="uzV-3M-SV8" secondAttribute="centerX" constant="0.5" id="duu-P5-z1D"/>
+                                    <constraint firstAttribute="centerX" secondItem="uzV-3M-SV8" secondAttribute="centerX" id="duu-P5-z1D"/>
                                     <constraint firstItem="xQ0-1A-CCF" firstAttribute="top" secondItem="JG7-6a-EeZ" secondAttribute="top" constant="5" id="ww2-Uh-eTV"/>
                                 </constraints>
                             </view>
@@ -77,18 +77,18 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEM_instr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYM-r4-bPZ" userLabel="MEM_instr">
-                                        <rect key="frame" x="46" y="13" width="67" height="24"/>
+                                        <rect key="frame" x="46" y="14" width="67" height="24"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="centerX" secondItem="TYM-r4-bPZ" secondAttribute="centerX" constant="0.5" id="O9r-ST-i5r"/>
+                                    <constraint firstAttribute="centerX" secondItem="TYM-r4-bPZ" secondAttribute="centerX" id="O9r-ST-i5r"/>
                                     <constraint firstAttribute="centerX" secondItem="QfI-2H-dQW" secondAttribute="centerX" id="PpN-R9-1jl"/>
                                     <constraint firstItem="QfI-2H-dQW" firstAttribute="top" secondItem="UmJ-sG-TSj" secondAttribute="top" constant="5" id="bOK-4g-G1e"/>
-                                    <constraint firstAttribute="centerY" secondItem="TYM-r4-bPZ" secondAttribute="centerY" constant="-0.5" id="bdE-Fh-jbG"/>
+                                    <constraint firstAttribute="centerY" secondItem="TYM-r4-bPZ" secondAttribute="centerY" constant="-2" id="bdE-Fh-jbG"/>
                                     <constraint firstAttribute="width" constant="160" id="p3B-OJ-dhC"/>
                                 </constraints>
                             </view>
@@ -101,19 +101,19 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WB_instr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bk0-B6-jrN" userLabel="WB_instr">
-                                        <rect key="frame" x="52" y="18" width="56" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WB_instr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bk0-B6-jrN" userLabel="WB_instr">
+                                        <rect key="frame" x="52" y="14" width="56" height="24"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="centerX" secondItem="Mj9-IL-qSv" secondAttribute="centerX" id="Bh1-UE-m3c"/>
-                                    <constraint firstAttribute="centerY" secondItem="Bk0-B6-jrN" secondAttribute="centerY" id="IRu-c0-ELx"/>
+                                    <constraint firstAttribute="centerY" secondItem="Bk0-B6-jrN" secondAttribute="centerY" constant="-2" id="IRu-c0-ELx"/>
                                     <constraint firstAttribute="width" constant="160" id="X5q-aO-ggJ"/>
-                                    <constraint firstAttribute="centerX" secondItem="Bk0-B6-jrN" secondAttribute="centerX" constant="0.5" id="ZIb-qH-QbN"/>
+                                    <constraint firstAttribute="centerX" secondItem="Bk0-B6-jrN" secondAttribute="centerX" id="ZIb-qH-QbN"/>
                                     <constraint firstItem="Mj9-IL-qSv" firstAttribute="top" secondItem="vhd-um-kPE" secondAttribute="top" constant="5" id="ebP-vv-nKq"/>
                                 </constraints>
                             </view>
@@ -127,16 +127,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EX_instr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhK-84-jaH" userLabel="EX_instr">
-                                        <rect key="frame" x="55" y="13" width="50" height="24"/>
+                                        <rect key="frame" x="55" y="14" width="50" height="24"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="centerY" secondItem="VhK-84-jaH" secondAttribute="centerY" constant="-0.5" id="HUt-AP-8h9"/>
-                                    <constraint firstAttribute="centerX" secondItem="VhK-84-jaH" secondAttribute="centerX" constant="0.5" id="PXa-Rv-iSH"/>
+                                    <constraint firstAttribute="centerY" secondItem="VhK-84-jaH" secondAttribute="centerY" constant="-2" id="HUt-AP-8h9"/>
+                                    <constraint firstAttribute="centerX" secondItem="VhK-84-jaH" secondAttribute="centerX" id="PXa-Rv-iSH"/>
                                     <constraint firstAttribute="width" constant="160" id="XSo-81-bV7"/>
                                     <constraint firstAttribute="centerX" secondItem="ukA-3O-jMg" secondAttribute="centerX" id="aXz-Ya-FR5"/>
                                     <constraint firstItem="ukA-3O-jMg" firstAttribute="top" secondItem="d85-9a-trL" secondAttribute="top" constant="5" id="qqi-RY-hFQ"/>
@@ -157,16 +157,16 @@
                                     <action selector="advanceClock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MNC-6P-qSb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="p5O-CX-W5A">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="p5O-CX-W5A">
                                 <rect key="frame" x="205" y="327" width="10" height="24"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="MUm-rK-PZu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="MUm-rK-PZu">
                                 <rect key="frame" x="205" y="249" width="10" height="24"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="r03-Wp-YGI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="r03-Wp-YGI">
                                 <rect key="frame" x="205" y="405" width="10" height="24"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="SlO-gY-3R1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="SlO-gY-3R1">
                                 <rect key="frame" x="205" y="171" width="10" height="24"/>
                             </imageView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nOf-G3-Qep">
