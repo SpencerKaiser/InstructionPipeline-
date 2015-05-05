@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C04E4B63919DF5C543C0EB7925854C509A31E247</key>
-		<string>https://github.com/SpencerKaiser/InstructionPipeline.git</string>
+		<string>https://github.com/SpencerKaiser/PipelineSimulator.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PipelineSimulator/PipelineSimulator.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/SpencerKaiser/InstructionPipeline.git</string>
+	<string>https://github.com/SpencerKaiser/PipelineSimulator.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

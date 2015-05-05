@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -142,21 +142,6 @@
                                     <constraint firstItem="ukA-3O-jMg" firstAttribute="top" secondItem="d85-9a-trL" secondAttribute="top" constant="5" id="qqi-RY-hFQ"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g73-nR-1bX">
-                                <rect key="frame" x="75" y="515" width="171" height="33"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="171" id="fnh-RJ-8h7"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
-                                <state key="normal" title="Advance Clock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="advanceClock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MNC-6P-qSb"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="p5O-CX-W5A">
                                 <rect key="frame" x="205" y="327" width="10" height="24"/>
                             </imageView>
@@ -181,24 +166,49 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instruction Set" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auo-BP-39t">
-                                <rect key="frame" x="105" y="31" width="111" height="24"/>
+                                <rect key="frame" x="99" y="31" width="124" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRT-Lw-56W">
+                                <rect key="frame" x="16" y="194" width="95" height="24"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqw-fd-OpO">
-                                <rect key="frame" x="16" y="99" width="106" height="318"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfH-ax-VUo">
+                                <rect key="frame" x="14" y="226" width="106" height="147"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="147" id="uAp-ub-PDM"/>
+                                </constraints>
                                 <string key="text">LW R8, 4(R3)
 SUB R2, R4, R5
 AND R9, R10, R11
 OR R16, R17, R18
 ADD R13, R14, R0</string>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="9"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g73-nR-1bX">
+                                <rect key="frame" x="46" y="505" width="229" height="43"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="DLb-gA-fAY"/>
+                                    <constraint firstAttribute="width" constant="229" id="fnh-RJ-8h7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                <state key="normal" title="Advance Clock">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="advanceClock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MNC-6P-qSb"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="MUm-rK-PZu" firstAttribute="top" secondItem="JG7-6a-EeZ" secondAttribute="bottom" constant="3" id="2z3-sN-jhg"/>
                             <constraint firstAttribute="centerX" secondItem="JG7-6a-EeZ" secondAttribute="centerX" constant="-50" id="4Gk-Ce-5F1"/>
@@ -208,15 +218,15 @@ ADD R13, R14, R0</string>
                             <constraint firstAttribute="centerX" secondItem="d85-9a-trL" secondAttribute="centerX" constant="-50" id="8Tl-yG-XRy"/>
                             <constraint firstItem="vhd-um-kPE" firstAttribute="top" secondItem="r03-Wp-YGI" secondAttribute="bottom" constant="3" id="8qz-Wj-o0y"/>
                             <constraint firstItem="JG7-6a-EeZ" firstAttribute="top" secondItem="SlO-gY-3R1" secondAttribute="bottom" constant="3" id="8vS-cF-49a"/>
-                            <constraint firstItem="lqw-fd-OpO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Cks-Yd-B4R"/>
                             <constraint firstItem="Tbz-xh-EMS" firstAttribute="centerX" secondItem="SlO-gY-3R1" secondAttribute="centerX" id="Czs-sE-wWK"/>
-                            <constraint firstItem="d85-9a-trL" firstAttribute="leading" secondItem="lqw-fd-OpO" secondAttribute="trailing" constant="8" id="F1x-4B-XxE"/>
+                            <constraint firstItem="gfH-ax-VUo" firstAttribute="leading" secondItem="JRT-Lw-56W" secondAttribute="leading" constant="-2" id="D0f-2o-8c1"/>
+                            <constraint firstItem="gfH-ax-VUo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-2" id="DpZ-xn-BgF"/>
                             <constraint firstAttribute="centerX" secondItem="UmJ-sG-TSj" secondAttribute="centerX" constant="-50" id="IP4-a9-6mB"/>
-                            <constraint firstAttribute="centerY" secondItem="lqw-fd-OpO" secondAttribute="centerY" constant="26" id="IQk-6q-jKw"/>
                             <constraint firstItem="vhd-um-kPE" firstAttribute="top" secondItem="UmJ-sG-TSj" secondAttribute="bottom" constant="30" id="IoI-OH-U94"/>
                             <constraint firstItem="nOf-G3-Qep" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="43" id="M8q-17-3jg"/>
                             <constraint firstItem="Tbz-xh-EMS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Mci-3S-A4Q"/>
                             <constraint firstItem="JG7-6a-EeZ" firstAttribute="top" secondItem="Tbz-xh-EMS" secondAttribute="bottom" constant="30" id="Q2T-t4-b53"/>
+                            <constraint firstItem="d85-9a-trL" firstAttribute="leading" secondItem="gfH-ax-VUo" secondAttribute="trailing" constant="10" id="The-ae-Tgk"/>
                             <constraint firstItem="Tbz-xh-EMS" firstAttribute="height" secondItem="JG7-6a-EeZ" secondAttribute="height" id="VlS-Gh-C0b"/>
                             <constraint firstItem="d85-9a-trL" firstAttribute="top" secondItem="MUm-rK-PZu" secondAttribute="bottom" constant="3" id="WaD-EW-3j8"/>
                             <constraint firstItem="UmJ-sG-TSj" firstAttribute="top" secondItem="p5O-CX-W5A" secondAttribute="bottom" constant="3" id="XsM-Xs-HHz"/>
@@ -224,19 +234,19 @@ ADD R13, R14, R0</string>
                             <constraint firstItem="MUm-rK-PZu" firstAttribute="centerX" secondItem="JG7-6a-EeZ" secondAttribute="centerX" id="YQA-2Z-2iE"/>
                             <constraint firstItem="nOf-G3-Qep" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="alR-Sj-0rP"/>
                             <constraint firstAttribute="centerX" secondItem="g73-nR-1bX" secondAttribute="centerX" id="dAJ-Zo-M44"/>
-                            <constraint firstItem="g73-nR-1bX" firstAttribute="top" secondItem="vhd-um-kPE" secondAttribute="bottom" constant="35" id="fLl-k0-lvi"/>
+                            <constraint firstItem="g73-nR-1bX" firstAttribute="top" secondItem="vhd-um-kPE" secondAttribute="bottom" constant="25" id="fLl-k0-lvi"/>
                             <constraint firstItem="vhd-um-kPE" firstAttribute="height" secondItem="Tbz-xh-EMS" secondAttribute="height" id="fO6-TM-fld"/>
                             <constraint firstAttribute="centerX" secondItem="vhd-um-kPE" secondAttribute="centerX" constant="-50" id="jjY-Ti-aNZ"/>
                             <constraint firstAttribute="centerX" secondItem="auo-BP-39t" secondAttribute="centerX" constant="-0.5" id="jnR-hb-lZ9"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g73-nR-1bX" secondAttribute="bottom" constant="20" id="k43-Cd-ljZ"/>
-                            <constraint firstItem="lqw-fd-OpO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="79" id="lLn-ph-uDQ"/>
+                            <constraint firstItem="d85-9a-trL" firstAttribute="centerY" secondItem="gfH-ax-VUo" secondAttribute="centerY" constant="0.5" id="mRQ-Ch-ION"/>
                             <constraint firstItem="d85-9a-trL" firstAttribute="centerX" secondItem="p5O-CX-W5A" secondAttribute="centerX" id="oFg-ki-iWi"/>
                             <constraint firstItem="r03-Wp-YGI" firstAttribute="top" secondItem="UmJ-sG-TSj" secondAttribute="bottom" constant="3" id="ogc-aG-jlN"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lqw-fd-OpO" secondAttribute="bottom" constant="151" id="pUT-9p-vfq"/>
                             <constraint firstItem="UmJ-sG-TSj" firstAttribute="height" secondItem="Tbz-xh-EMS" secondAttribute="height" id="qT7-4R-EzU"/>
                             <constraint firstAttribute="centerX" secondItem="Tbz-xh-EMS" secondAttribute="centerX" constant="-50" id="rKC-XD-kHK"/>
                             <constraint firstItem="SlO-gY-3R1" firstAttribute="top" secondItem="Tbz-xh-EMS" secondAttribute="bottom" constant="3" id="rh5-Vi-w7r"/>
                             <constraint firstItem="d85-9a-trL" firstAttribute="top" secondItem="JG7-6a-EeZ" secondAttribute="bottom" constant="30" id="uh3-hZ-zBl"/>
+                            <constraint firstItem="gfH-ax-VUo" firstAttribute="top" secondItem="JRT-Lw-56W" secondAttribute="bottom" constant="8" id="upq-4P-Uws"/>
                             <constraint firstItem="Tbz-xh-EMS" firstAttribute="height" secondItem="d85-9a-trL" secondAttribute="height" id="uxT-c7-ZEW"/>
                             <constraint firstItem="UmJ-sG-TSj" firstAttribute="centerX" secondItem="r03-Wp-YGI" secondAttribute="centerX" id="xJ5-Rm-zga"/>
                         </constraints>
@@ -253,8 +263,8 @@ ADD R13, R14, R0</string>
                         <outlet property="WB_bg" destination="vhd-um-kPE" id="o1a-Xf-eeu"/>
                         <outlet property="WB_instr" destination="Bk0-B6-jrN" id="4Le-A1-gbf"/>
                         <outlet property="advanceClockButton" destination="g73-nR-1bX" id="sdm-Iv-UOC"/>
-                        <outlet property="instructionLabel" destination="lqw-fd-OpO" id="ol5-e4-WQf"/>
                         <outlet property="instructionSelector" destination="nOf-G3-Qep" id="oq6-BU-LSY"/>
+                        <outlet property="instructionsTextView" destination="gfH-ax-VUo" id="pg5-w8-FxJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
